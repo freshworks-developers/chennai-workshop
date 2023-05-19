@@ -6,8 +6,50 @@ The app manifest is modified to be visible in multiple places such as `ticket_si
 1. Ensure you have followed the steps given in [getting started guide](getting_started.md)
 2. Ensure you have built your first app using given [instructions](app-dev-guide.md)
 3. Navigate to `your_first_app` directory from CLI
-4. Update `manifest.json` to add placeholder information
-5. Add views against each of placeholder, under `app/views/` and update the information of same in manifest
+4. Update `manifest.json` to add placeholder information using the snippet below
+    ```json
+    {
+        "platform-version": "2.3",
+        "product": {
+            "freshdesk": {
+                "location": {
+                    "ticket_sidebar": {
+                        "url": "index.html",
+                        "icon": "styles/images/icon.svg"
+                    },
+                    "full_page_app": {
+                        "url": "views/full_page_app.html",
+                        "icon": "styles/images/icon.svg"
+                    },
+                    "ticket_requester_info": {
+                        "url": "views/ticket_requester_info.html",
+                        "icon": "styles/images/icon.svg"
+                    },
+                    "cti_global_sidebar": {
+                        "url": "views/cti_global_sidebar.html",
+                        "icon": "styles/images/icon.svg"
+                    },
+                    "contact_sidebar": {
+                        "url": "views/contact_sidebar.html",
+                        "icon": "styles/images/icon.svg"
+                    }
+                }
+            }
+        },
+        "engines": {
+            "node": "18.15.0",
+            "fdk": "9.0.0"
+        }
+    }
+
+    ```
+5. Add views against each of placeholder, under `app/views/` and update the information of same in manifest, when created the files should be listed as below
+    ```sh
+    app/views/contact_sidebar.html
+    app/views/cti_global_sidebar.html
+    app/views/full_page_app.html
+    app/views/ticket_requester_info.html
+    ```
 6. Run command `fdk run` to run the app
 7. Navigate to your product page - https://[subdomain].[product].com/a/dashboard/sample Eg: https://paidappdemo.freshdesk.com/ 
    1. Navigate to a specific ticket - https://[subdomain].[product].com/a/tickets/[id] Eg.https://paidappdemo.freshdesk.com/a/tickets/3

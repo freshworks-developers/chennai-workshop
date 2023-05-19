@@ -4,7 +4,7 @@ The app manifest is modified to be visible in multiple places such as `ticket_si
 
 
 1. Ensure you have followed the steps given in [getting started guide](getting_started.md)
-2. Ensure you have built your first app using given [instructions](app-dev-guide.md)
+2. Ensure you have built your first app using instructions given [instructions](app-dev-guide.md)
 3. Navigate to `your_first_app` directory from CLI
 4. Update `manifest.json` to add placeholder information using the snippet below
     ```json

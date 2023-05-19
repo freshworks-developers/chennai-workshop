@@ -1,0 +1,33 @@
+{
+  "platform-version": "2.3",
+  "product": {
+    "freshdesk": {
+      "location": {
+        "ticket_sidebar": {
+          "url": "index.html",
+          "icon": "styles/images/icon.svg"
+        },
+        "full_page_app": {
+          "url": "views/full_page_app.html",
+          "icon": "styles/images/icon.svg"
+        },
+        "ticket_requester_info": {
+          "url": "views/ticket_requester_info.html",
+          "icon": "styles/images/icon.svg"
+        },
+        "cti_global_sidebar": {
+          "url": "views/cti_global_sidebar.html",
+          "icon": "styles/images/icon.svg"
+        },
+        "contact_sidebar": {
+          "url": "views/contact_sidebar.html",
+          "icon": "styles/images/icon.svg"
+        }
+      }
+    }
+  },
+  "engines": {
+    "node": "18.15.0",
+    "fdk": "9.0.0"
+  }
+}

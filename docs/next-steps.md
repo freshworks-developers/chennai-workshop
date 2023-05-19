@@ -67,3 +67,5 @@ When built app using mentioned steps your app must resemble to that of [placehol
 When run using `fdk run` the app should be loaded as shown below
 
 ![Placeholder app](../assets/placeholder-app.png)
+
+Continue to build further using instructions given in [build full_page_app](build-full-page-app.md)

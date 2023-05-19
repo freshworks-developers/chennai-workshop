@@ -110,3 +110,5 @@ v18.15.0
 # for fdk -v
 9.0.1
 ```
+
+Once completed create your first freshworks application using [app development guide](app-dev-guide.md)

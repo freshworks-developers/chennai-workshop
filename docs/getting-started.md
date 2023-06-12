@@ -81,7 +81,7 @@ Kindly ensure you have gone through the [Introductory guide to freshworks app d
      # verify you have xcode cli installed
      xcode-select -p
      # for windows Users install build tools for windows
-     npm install --global --production windows-build-tools
+     npm install --global --production windows-build-tools@4.0.0
      ```
  4. Install latest version of FDK
     ```sh

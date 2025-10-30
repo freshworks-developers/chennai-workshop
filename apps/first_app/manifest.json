@@ -1,7 +1,14 @@
 {
-  "platform-version": "2.3",
-  "product": {
-    "freshdesk": {
+  "platform-version": "3.0",
+  "engines": {
+    "node": "18.20.8",
+    "fdk": "9.7.0"
+  },
+  "app": {
+    "tracking_id": "fomz7wx3i93ckceatezy"
+  },
+  "modules": {
+    "support_ticket": {
       "location": {
         "ticket_sidebar": {
           "url": "index.html",
@@ -9,9 +16,5 @@
         }
       }
     }
-  },
-  "engines": {
-    "node": "18.20.8",
-    "fdk": "9.7.0"
   }
 }

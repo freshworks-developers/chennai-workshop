@@ -1,33 +1,44 @@
 {
-  "platform-version": "2.3",
-  "product": {
-    "freshdesk": {
+  "platform-version": "3.0",
+  "engines": {
+    "node": "18.20.8",
+    "fdk": "9.7.0"
+  },
+  "app": {
+    "tracking_id": "kjx6zcclpq4gyc26x3us"
+  },
+  "modules": {
+    "support_contact": {
       "location": {
-        "ticket_sidebar": {
-          "url": "index.html",
-          "icon": "styles/images/icon.svg"
-        },
-        "full_page_app": {
-          "url": "views/full_page_app.html",
-          "icon": "styles/images/icon.svg"
-        },
-        "ticket_requester_info": {
-          "url": "views/ticket_requester_info.html",
-          "icon": "styles/images/icon.svg"
-        },
-        "cti_global_sidebar": {
-          "url": "views/cti_global_sidebar.html",
-          "icon": "styles/images/icon.svg"
-        },
         "contact_sidebar": {
           "url": "views/contact_sidebar.html",
           "icon": "styles/images/icon.svg"
         }
       }
+    },
+    "support_ticket": {
+      "location": {
+        "ticket_sidebar": {
+          "url": "index.html",
+          "icon": "styles/images/icon.svg"
+        },
+        "ticket_requester_info": {
+          "url": "views/ticket_requester_info.html",
+          "icon": "styles/images/icon.svg"
+        }
+      }
+    },
+    "common": {
+      "location": {
+        "full_page_app": {
+          "url": "views/full_page_app.html",
+          "icon": "styles/images/icon.svg"
+        },
+        "cti_global_sidebar": {
+          "url": "views/cti_global_sidebar.html",
+          "icon": "styles/images/icon.svg"
+        }
+      }
     }
-  },
-  "engines": {
-    "node": "18.20.8",
-    "fdk": "9.7.0"
   }
 }

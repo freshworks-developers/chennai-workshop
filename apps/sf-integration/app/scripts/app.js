@@ -131,11 +131,11 @@ function clearCustomerData() {
 
 
 /**
- * This asynchronous function clears existing customer orders from the DOM.
+ * This function clears existing customer orders from the DOM.
  * It does so by targeting an element with the ID 'orderDetails'
  * and setting its innerHTML content to an empty string.
  */
-async function clearCustomerOrders() {
+function clearCustomerOrders() {
   const inputField = document.getElementById('customerEmail');
   inputField.value = '';
   const cardsContainer = document.getElementById('orderDetails');
@@ -181,7 +181,7 @@ async function fetchCustomerOrders() {
 }
 
 
-async function reset(){
+function reset(){
   clearCustomerData();
   clearCustomerOrders();
 }

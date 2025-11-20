@@ -22,21 +22,23 @@ This document will enable you to build your first freshworks application
 This app displays the name of the requester of a freshdesk ticket in the ticket_sidebar placeholder
 
 #### Files and Folders
-    .
-    ├── README.md                 A file for your future self and developer friends to learn about app
-    ├── app                       A folder to place all assets required for frontend components
-    │   ├── index.html            A landing page for the user to use the app
-    │   ├── scripts               JavaScript to place files frontend components business logic
-    │   │   └── app.js
-    │   └── styles                A folder to place all the styles for app
+
+    ├── README.md               A file for your future self and developer friends to learn about app
+    ├── app                     A folder to place all assets required for frontend components
+    │   ├── index.html          A landing page for the user to use the app
+    │   ├── scripts
+    │   │   └── app.js          JavaScript to place files frontend components business logic
+    │   └── styles              A folder to place all the styles for app
     │       ├── images
     │       │   └── icon.svg
     │       └── style.css
-    ├── config                    A folder to place all the configuration files
+    ├── config                  A folder to place all the configuration files
     │   └── iparams.json
-    └── manifest.json             A JSON file holding meta data for app to run on platform
+    ├── log                     A folder to place all the log files generated during development
+    │   └── fdk.log
+    └── manifest.json           A JSON file holding meta data for app to run on platform
+    6 directories, 8 files
 
-Explore [more of app sample apps](https://community.developers.freshworks.com/t/freshworks-sample-apps/3604) on the Freshworks github respository.
 
 ## Expected outcome
 

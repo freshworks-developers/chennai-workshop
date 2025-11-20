@@ -23,19 +23,21 @@
   </div>
   <fw-input id="customerEmail" type="email" label="Customer Email" placeholder="Enter customer email"></fw-input><br/>
   <fw-text id="email-error" color="red" size="small"></fw-text><br/>
-  <fw-button id="fetchOrders" color="primary" onclick="fetchCustomerOrders()">Fetch Orders</fw-button><br/><br/>
-  <fw-button id="clearOrders" color="primary" onclick="clearCustomerOrders()">Clear Orders</fw-button><br/><br/>
-  <fw-button id="fetchCustomersBtn" color="primary" onclick="renderCustomerData()">Fetch Customers</fw-button><br/><br/>
-  <fw-button id="clearCustomersBtn" color="primary" onclick="clearCustomerData()">Clear Customers</fw-button><br/><br/>
+  <fw-button id="fetchOrders" color="primary" onclick="fetchCustomerOrders()">Fetch Orders</fw-button> 
+  <fw-button id="clearOrders" color="primary" onclick="clearCustomerOrders()">Clear Orders</fw-button><br/>
+  <!-- This div serves as a container for the customer cards, where the individual customer cards will be appended programmatically -->
+  <h4>Retrieved Order Details</h4>
+  <div id="orderDetails"></div>
+  <fw-button id="fetchCustomersBtn" color="primary" onclick="renderCustomerData()">Fetch Customers</fw-button> 
+  <fw-button id="clearCustomersBtn" color="primary" onclick="clearCustomerData()">Clear Customers</fw-button><br/>
+  <!-- A div element with the id "orderDetails" which can be used to display order related information on the web page -->
+  <h4>Retrieved Order Details</h4>
+  <div id="customer-cards-container"></div>
   <fw-button id="reset" color="primary" onclick="reset()">Reset All</fw-button>
 </body>
 
-<!-- This div serves as a container for the customer cards, where the individual customer cards will be appended programmatically -->
-<div id="customer-cards-container"></div>
 
 
-<!-- A div element with the id "orderDetails" which can be used to display order related information on the web page -->
-<div id="orderDetails"></div>
 
 
 <!--

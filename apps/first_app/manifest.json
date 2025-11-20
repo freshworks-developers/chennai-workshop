@@ -2,7 +2,7 @@
   "platform-version": "3.0",
   "engines": {
     "node": "18.20.8",
-    "fdk": "9.7.0"
+    "fdk": "9.7.1"
   },
   "app": {
     "tracking_id": "fomz7wx3i93ckceatezy"

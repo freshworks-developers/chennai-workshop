@@ -129,4 +129,4 @@ If you have questions during the workshop:
 
 ---
 
-**🚀 Ready to start? Head over to the [Getting Started Guide](docs/getting-started.md)!**
+**🚀 Ready to start? Head over to the [Getting Started Guide](./apps/getting_started.md)!**

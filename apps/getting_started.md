@@ -1,6 +1,6 @@
 # Getting started
 
-If you are new to Freshworks Developer ecosystem, this segment is to help you get started. There are threetwo major steps
+If you are new to Freshworks Developer ecosystem, this segment is to help you get started. There are three major steps
 
 1. Signing up a freshworks developer
 2. From the developer account subscribing for a freshworks product
@@ -9,7 +9,7 @@ If you are new to Freshworks Developer ecosystem, this segment is to help you ge
 # Signing up a freshworks developer
 
 1. If you already have an account with us skip this step
-2. By cliking the link and providing necessary details [Developer Sign up](https://freshworks.dev/signup/)
+2. By clicking the link and providing necessary details [Developer Sign up](https://freshworks.dev/signup/)
 3. Bookmark the developer account link for future reference
 4. Refer detailed instruction from [here](https://community.freshworks.dev/t/how-to-log-in-and-get-started-with-the-freshworks-developer-account/7078)
 

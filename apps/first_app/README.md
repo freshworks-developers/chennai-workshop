@@ -4,7 +4,7 @@ This document will enable you to build your first freshworks application
 
 ## Build your First App using Freshworks CLI App Template
 
-1. Ensure you have followed the steps given in [getting started guide](getting-started.md)
+1. Ensure you have followed the steps given in [getting started guide](../getting_started.md)
 2. Navigate to `your_first_app` directory from CLI  
 3. Run command `fdk run` to run the app
 4. Navigate to your product page - https://[subdomain].[product].com/a/dashboard/sample Eg: https://paidappdemo.freshdesk.com/ 

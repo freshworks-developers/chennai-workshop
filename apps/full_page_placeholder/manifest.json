@@ -1,12 +1,5 @@
 {
   "platform-version": "3.0",
-  "engines": {
-    "node": "18.20.8",
-    "fdk": "9.7.0"
-  },
-  "app": {
-    "tracking_id": "eoyewpv9wqgqzu6g2v6a"
-  },
   "modules": {
     "support_contact": {
       "location": {

@@ -1,21 +1,19 @@
 {
-  "platform-version": "2.3",
-  "product": {
-    "freshdesk": {
+  "platform-version": "3.0",
+  "modules": {
+    "support_ticket": {
       "location": {
         "ticket_sidebar": {
           "url": "index.html",
           "icon": "styles/images/icon.svg"
         }
-      },
-      "requests":{
+      }
+    },
+    "common": {
+      "requests": {
         "fetchCustomerOrders": {},
-        "fetchCustomers":{}
+        "fetchCustomers": {}
       }
     }
-  },
-  "engines": {
-    "node": "18.15.0",
-    "fdk": "9.0.0"
   }
 }
